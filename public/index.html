@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Gift Suggestion Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🎁 Gift Suggestion Generator</h1>
+    <form id="suggestionForm">
+      <input type="text" id="occasion" placeholder="Occasion (e.g. Birthday, Father's Day)" required>
+      <input type="text" id="budget" placeholder="Budget (e.g. ₹2000)" required>
+      <input type="text" id="time" placeholder="Time (e.g. 2 days, 1 week)" required>
+      <button type="submit">Get Suggestions</button>
+    </form>
+
+    <!-- ✅ This is the missing part -->
+    <div id="result">
+      <p class="placeholder">Your suggestions will appear here!</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
